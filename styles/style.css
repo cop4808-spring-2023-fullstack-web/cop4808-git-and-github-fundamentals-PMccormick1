@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -48,6 +48,10 @@ button {
     color: black;
 }
 
+.btn-row-1 {
+
+    font-weight: bold;
+}
 
 #zero {
     grid-column: span 2;
