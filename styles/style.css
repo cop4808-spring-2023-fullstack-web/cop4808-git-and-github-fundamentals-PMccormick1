@@ -49,7 +49,7 @@ button {
 }
 
 .btn-row-1 {
-
+    background-color: purple;
     font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ button {
     background-color: #ffc183;
 }
 
-.operand {
+.operand:nth-child(n + 3) {
     background-color: #217C7E;
 }
 
