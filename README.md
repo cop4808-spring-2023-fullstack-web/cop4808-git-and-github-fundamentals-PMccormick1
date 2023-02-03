@@ -1,5 +1,14 @@
 Patrick McCormick
 
+Calculator Demo
+
+A simple calculator app that I have added some extra functionality to.
+
+https://user-images.githubusercontent.com/123672877/216638532-dc5c3e3e-0380-457f-92f5-211fa57cbe8c.mp4
+
+
+
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
