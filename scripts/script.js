@@ -41,9 +41,10 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            }
         }
     )}
 }
@@ -146,6 +147,20 @@ function inputPercent(num) {
 function inputSign(num) {
     displayValue = (num * -1).toString();
 }
+
+/* ----- new functions ----- */
+function inputSin(num) {
+    displayValue = Math.sin(num).toString();
+}
+
+function inputCos(num) {
+    displayValue = Math.cos(num).toString();
+}
+
+function inputTan(num) {
+    displayValue = Math.tan(num).toString();
+}
+/* ----- End new functions ----- */
 
 function clearDisplay() {
     displayValue = '0';
