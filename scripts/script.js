@@ -44,6 +44,15 @@ function clickButton() {
             } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            } else if(buttons[i].classList.contains('sin')) {
+                inputSin(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('cos')) {
+                inputCos(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('tan')) {
+                inputTan(displayValue);
+                updateDisplay();
             }
         }
     )}
